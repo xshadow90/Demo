@@ -15,6 +15,20 @@
 		6A1A1E751B13D77A0052A374 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A1A1E741B13D77A0052A374 /* Images.xcassets */; };
 		6A1A1E781B13D77A0052A374 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A1A1E761B13D77A0052A374 /* LaunchScreen.xib */; };
 		6A1A1E841B13D77A0052A374 /* HelloOpenGLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A1E831B13D77A0052A374 /* HelloOpenGLTests.m */; };
+		6A1A1E8E1B13D7AC0052A374 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1A1E8D1B13D7AC0052A374 /* OpenGLES.framework */; };
+		6A1A1E901B13D7CB0052A374 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1A1E8F1B13D7CB0052A374 /* QuartzCore.framework */; };
+		6A1A1E931B13D8300052A374 /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A1E921B13D8300052A374 /* OpenGLView.m */; };
+		6A1A1E951B13DC230052A374 /* SimpleVertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 6A1A1E941B13DC230052A374 /* SimpleVertex.glsl */; };
+		6A1A1E971B13DC9E0052A374 /* SimpleFragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 6A1A1E961B13DC9D0052A374 /* SimpleFragment.glsl */; };
+		6A1A1EA41B13EC360052A374 /* CC3Foundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A1E9B1B13EC360052A374 /* CC3Foundation.m */; };
+		6A1A1EA51B13EC360052A374 /* CC3GLMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A1E9D1B13EC360052A374 /* CC3GLMatrix.m */; };
+		6A1A1EA61B13EC360052A374 /* CC3Kazmath.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A1E9E1B13EC360052A374 /* CC3Kazmath.c */; };
+		6A1A1EA71B13EC360052A374 /* CC3Math.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A1EA21B13EC360052A374 /* CC3Math.m */; };
+		6A1A1EAB1B142A4B0052A374 /* item_powerup_fish.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A1A1EA91B142A4B0052A374 /* item_powerup_fish.jpg */; };
+		6A1A1EAC1B142A4B0052A374 /* tile_floor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A1A1EAA1B142A4B0052A374 /* tile_floor.jpg */; };
+		6A1A1EB01B1433370052A374 /* item_powerup_fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A1A1EAE1B1433370052A374 /* item_powerup_fish.png */; };
+		6A1A1EB11B1433370052A374 /* tile_floor.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A1A1EAF1B1433370052A374 /* tile_floor.png */; };
+		6ADD036F1B17B64500E50D51 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADD036E1B17B64500E50D51 /* GLKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +56,27 @@
 		6A1A1E7D1B13D77A0052A374 /* HelloOpenGLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloOpenGLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A1A1E821B13D77A0052A374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A1A1E831B13D77A0052A374 /* HelloOpenGLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloOpenGLTests.m; sourceTree = "<group>"; };
+		6A1A1E8D1B13D7AC0052A374 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		6A1A1E8F1B13D7CB0052A374 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6A1A1E911B13D8300052A374 /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
+		6A1A1E921B13D8300052A374 /* OpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLView.m; sourceTree = "<group>"; };
+		6A1A1E941B13DC230052A374 /* SimpleVertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleVertex.glsl; sourceTree = "<group>"; };
+		6A1A1E961B13DC9D0052A374 /* SimpleFragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleFragment.glsl; sourceTree = "<group>"; };
+		6A1A1E9A1B13EC360052A374 /* CC3Foundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CC3Foundation.h; path = Cocos3DMathLib/CC3Foundation.h; sourceTree = "<group>"; };
+		6A1A1E9B1B13EC360052A374 /* CC3Foundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CC3Foundation.m; path = Cocos3DMathLib/CC3Foundation.m; sourceTree = "<group>"; };
+		6A1A1E9C1B13EC360052A374 /* CC3GLMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CC3GLMatrix.h; path = Cocos3DMathLib/CC3GLMatrix.h; sourceTree = "<group>"; };
+		6A1A1E9D1B13EC360052A374 /* CC3GLMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CC3GLMatrix.m; path = Cocos3DMathLib/CC3GLMatrix.m; sourceTree = "<group>"; };
+		6A1A1E9E1B13EC360052A374 /* CC3Kazmath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = CC3Kazmath.c; path = Cocos3DMathLib/CC3Kazmath.c; sourceTree = "<group>"; };
+		6A1A1E9F1B13EC360052A374 /* CC3Kazmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CC3Kazmath.h; path = Cocos3DMathLib/CC3Kazmath.h; sourceTree = "<group>"; };
+		6A1A1EA01B13EC360052A374 /* CC3Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CC3Logging.h; path = Cocos3DMathLib/CC3Logging.h; sourceTree = "<group>"; };
+		6A1A1EA11B13EC360052A374 /* CC3Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CC3Math.h; path = Cocos3DMathLib/CC3Math.h; sourceTree = "<group>"; };
+		6A1A1EA21B13EC360052A374 /* CC3Math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CC3Math.m; path = Cocos3DMathLib/CC3Math.m; sourceTree = "<group>"; };
+		6A1A1EA31B13EC360052A374 /* ccTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccTypes.h; path = Cocos3DMathLib/ccTypes.h; sourceTree = "<group>"; };
+		6A1A1EA91B142A4B0052A374 /* item_powerup_fish.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = item_powerup_fish.jpg; sourceTree = "<group>"; };
+		6A1A1EAA1B142A4B0052A374 /* tile_floor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tile_floor.jpg; sourceTree = "<group>"; };
+		6A1A1EAE1B1433370052A374 /* item_powerup_fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item_powerup_fish.png; sourceTree = "<group>"; };
+		6A1A1EAF1B1433370052A374 /* tile_floor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_floor.png; sourceTree = "<group>"; };
+		6ADD036E1B17B64500E50D51 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +84,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ADD036F1B17B64500E50D51 /* GLKit.framework in Frameworks */,
+				6A1A1E901B13D7CB0052A374 /* QuartzCore.framework in Frameworks */,
+				6A1A1E8E1B13D7AC0052A374 /* OpenGLES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +103,9 @@
 		6A1A1E581B13D77A0052A374 = {
 			isa = PBXGroup;
 			children = (
+				6ADD036E1B17B64500E50D51 /* GLKit.framework */,
+				6A1A1E8F1B13D7CB0052A374 /* QuartzCore.framework */,
+				6A1A1E8D1B13D7AC0052A374 /* OpenGLES.framework */,
 				6A1A1E631B13D77A0052A374 /* HelloOpenGL */,
 				6A1A1E801B13D77A0052A374 /* HelloOpenGLTests */,
 				6A1A1E621B13D77A0052A374 /* Products */,
@@ -83,15 +124,22 @@
 		6A1A1E631B13D77A0052A374 /* HelloOpenGL */ = {
 			isa = PBXGroup;
 			children = (
+				6A9E17A31B17A42100A8BD5C /* helper */,
+				6A1A1EAD1B142A540052A374 /* Resource */,
+				6A1A1EA81B13EC3C0052A374 /* Library */,
 				6A1A1E681B13D77A0052A374 /* AppDelegate.h */,
 				6A1A1E691B13D77A0052A374 /* AppDelegate.m */,
 				6A1A1E6E1B13D77A0052A374 /* ViewController.h */,
 				6A1A1E6F1B13D77A0052A374 /* ViewController.m */,
+				6A1A1E941B13DC230052A374 /* SimpleVertex.glsl */,
+				6A1A1E961B13DC9D0052A374 /* SimpleFragment.glsl */,
 				6A1A1E711B13D77A0052A374 /* Main.storyboard */,
 				6A1A1E741B13D77A0052A374 /* Images.xcassets */,
 				6A1A1E761B13D77A0052A374 /* LaunchScreen.xib */,
 				6A1A1E6B1B13D77A0052A374 /* HelloOpenGL.xcdatamodeld */,
 				6A1A1E641B13D77A0052A374 /* Supporting Files */,
+				6A1A1E911B13D8300052A374 /* OpenGLView.h */,
+				6A1A1E921B13D8300052A374 /* OpenGLView.m */,
 			);
 			path = HelloOpenGL;
 			sourceTree = "<group>";
@@ -120,6 +168,41 @@
 				6A1A1E821B13D77A0052A374 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A1A1EA81B13EC3C0052A374 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				6A1A1E9A1B13EC360052A374 /* CC3Foundation.h */,
+				6A1A1E9B1B13EC360052A374 /* CC3Foundation.m */,
+				6A1A1E9C1B13EC360052A374 /* CC3GLMatrix.h */,
+				6A1A1E9D1B13EC360052A374 /* CC3GLMatrix.m */,
+				6A1A1E9E1B13EC360052A374 /* CC3Kazmath.c */,
+				6A1A1E9F1B13EC360052A374 /* CC3Kazmath.h */,
+				6A1A1EA01B13EC360052A374 /* CC3Logging.h */,
+				6A1A1EA11B13EC360052A374 /* CC3Math.h */,
+				6A1A1EA21B13EC360052A374 /* CC3Math.m */,
+				6A1A1EA31B13EC360052A374 /* ccTypes.h */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		6A1A1EAD1B142A540052A374 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6A1A1EAE1B1433370052A374 /* item_powerup_fish.png */,
+				6A1A1EAF1B1433370052A374 /* tile_floor.png */,
+				6A1A1EA91B142A4B0052A374 /* item_powerup_fish.jpg */,
+				6A1A1EAA1B142A4B0052A374 /* tile_floor.jpg */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		6A9E17A31B17A42100A8BD5C /* helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +285,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A1A1EAC1B142A4B0052A374 /* tile_floor.jpg in Resources */,
+				6A1A1EB01B1433370052A374 /* item_powerup_fish.png in Resources */,
 				6A1A1E731B13D77A0052A374 /* Main.storyboard in Resources */,
+				6A1A1E951B13DC230052A374 /* SimpleVertex.glsl in Resources */,
 				6A1A1E781B13D77A0052A374 /* LaunchScreen.xib in Resources */,
 				6A1A1E751B13D77A0052A374 /* Images.xcassets in Resources */,
+				6A1A1E971B13DC9E0052A374 /* SimpleFragment.glsl in Resources */,
+				6A1A1EB11B1433370052A374 /* tile_floor.png in Resources */,
+				6A1A1EAB1B142A4B0052A374 /* item_powerup_fish.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,8 +313,13 @@
 			files = (
 				6A1A1E6D1B13D77A0052A374 /* HelloOpenGL.xcdatamodeld in Sources */,
 				6A1A1E6A1B13D77A0052A374 /* AppDelegate.m in Sources */,
+				6A1A1EA41B13EC360052A374 /* CC3Foundation.m in Sources */,
+				6A1A1EA71B13EC360052A374 /* CC3Math.m in Sources */,
 				6A1A1E701B13D77A0052A374 /* ViewController.m in Sources */,
+				6A1A1EA51B13EC360052A374 /* CC3GLMatrix.m in Sources */,
 				6A1A1E671B13D77A0052A374 /* main.m in Sources */,
+				6A1A1EA61B13EC360052A374 /* CC3Kazmath.c in Sources */,
+				6A1A1E931B13D8300052A374 /* OpenGLView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = HelloOpenGL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -363,6 +458,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = HelloOpenGL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,6 +518,7 @@
 				6A1A1E891B13D77A0052A374 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A1A1E8A1B13D77A0052A374 /* Build configuration list for PBXNativeTarget "HelloOpenGLTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +527,7 @@
 				6A1A1E8C1B13D77A0052A374 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

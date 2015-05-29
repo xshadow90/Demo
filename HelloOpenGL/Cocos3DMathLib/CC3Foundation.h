@@ -53,6 +53,7 @@
 #import "CC3Math.h"
 #import "CC3Logging.h"
 //#import "CCDirector.h"
+#import <UIKit/UIColor.h>
 
 #pragma mark -
 #pragma mark 3D cartesian vector structure and functions
