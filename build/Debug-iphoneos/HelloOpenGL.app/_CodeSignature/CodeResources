@@ -8,7 +8,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AF+eDVbzgA+xXEx7igXw0W1+uO8=
+			Nq5r6nb+lXVzcn+qMFLn78ZSEok=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -17,7 +17,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zZeURoml8DdelVFFDfaDFM4E5BY=
+			z89lHuqxYJpQDlQ5P+BlRW5Q2KU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -35,7 +35,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dJPIM0issdovNabF/FPLGtWyFnc=
+			bg3uPlqhezsOWyzbeJ7euXHy+sU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -46,7 +46,7 @@
 		</data>
 		<key>HelloOpenGL.momd/HelloOpenGL.omo</key>
 		<data>
-		6sb8W5HCYR2rVNsy97ccKfcYCWI=
+		spk0Notv7ThgasU0YdNMq4yEEBQ=
 		</data>
 		<key>HelloOpenGL.momd/VersionInfo.plist</key>
 		<data>
@@ -62,11 +62,15 @@
 		</data>
 		<key>SimpleFragment.glsl</key>
 		<data>
-		mIGwIhhwNcv9npASTd4PVsjHysk=
+		3WF0Dh73zSMrraZa75F4qmMBgdI=
 		</data>
 		<key>SimpleVertex.glsl</key>
 		<data>
-		ipdsYIq0/XiA2QHC9OPfokpCi5I=
+		tkRtWfS2GPVYTJE1+CLNquGDmaI=
+		</data>
+		<key>cube.png</key>
+		<data>
+		7BC4ibnHlCE+aYHz2mGHrilyXkI=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -95,7 +99,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AF+eDVbzgA+xXEx7igXw0W1+uO8=
+			Nq5r6nb+lXVzcn+qMFLn78ZSEok=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -104,7 +108,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zZeURoml8DdelVFFDfaDFM4E5BY=
+			z89lHuqxYJpQDlQ5P+BlRW5Q2KU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -122,7 +126,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dJPIM0issdovNabF/FPLGtWyFnc=
+			bg3uPlqhezsOWyzbeJ7euXHy+sU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -133,7 +137,7 @@
 		</data>
 		<key>HelloOpenGL.momd/HelloOpenGL.omo</key>
 		<data>
-		6sb8W5HCYR2rVNsy97ccKfcYCWI=
+		spk0Notv7ThgasU0YdNMq4yEEBQ=
 		</data>
 		<key>HelloOpenGL.momd/VersionInfo.plist</key>
 		<data>
@@ -141,11 +145,15 @@
 		</data>
 		<key>SimpleFragment.glsl</key>
 		<data>
-		mIGwIhhwNcv9npASTd4PVsjHysk=
+		3WF0Dh73zSMrraZa75F4qmMBgdI=
 		</data>
 		<key>SimpleVertex.glsl</key>
 		<data>
-		ipdsYIq0/XiA2QHC9OPfokpCi5I=
+		tkRtWfS2GPVYTJE1+CLNquGDmaI=
+		</data>
+		<key>cube.png</key>
+		<data>
+		7BC4ibnHlCE+aYHz2mGHrilyXkI=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>

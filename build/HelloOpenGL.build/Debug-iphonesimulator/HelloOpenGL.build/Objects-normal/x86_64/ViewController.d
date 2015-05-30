@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/shaohanxu/Documents/CS231m/HelloOpenGL2/HelloOpenGL/ViewController.m \
-  /Users/shaohanxu/Documents/CS231m/HelloOpenGL2/HelloOpenGL/ViewController.h \
-  /Users/shaohanxu/Documents/CS231m/HelloOpenGL2/HelloOpenGL/OpenGLView.h
+  /Users/shaohanxu/Documents/CS231m/HelloOpenGL3/HelloOpenGL/HelloOpenGL/ViewController.m \
+  /Users/shaohanxu/Documents/CS231m/HelloOpenGL3/HelloOpenGL/HelloOpenGL/ViewController.h \
+  /Users/shaohanxu/Documents/CS231m/HelloOpenGL3/HelloOpenGL/HelloOpenGL/OpenGLView.h

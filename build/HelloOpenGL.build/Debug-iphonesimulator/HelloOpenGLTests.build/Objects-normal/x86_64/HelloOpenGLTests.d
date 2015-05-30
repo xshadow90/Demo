@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/shaohanxu/Documents/CS231m/HelloOpenGL2/HelloOpenGLTests/HelloOpenGLTests.m \
+  /Users/shaohanxu/Documents/CS231m/HelloOpenGL3/HelloOpenGL/HelloOpenGLTests/HelloOpenGLTests.m \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuiteRun.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuite.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestProbe.h \

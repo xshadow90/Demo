@@ -1,16 +1,16 @@
 attribute vec4 Position;
-attribute vec4 SourceColor;
+//attribute vec4 SourceColor;
 
-varying vec4 DestinationColor;
+//varying vec4 DestinationColor;
 
-uniform mat4 Projection;
-uniform mat4 Modelview;
+uniform mat4 testProjection;
+uniform mat4 testModelview;
 
 attribute vec2 TexCoordIn; // New
 varying vec2 TexCoordOut; // New
 
 void main(void) {
-    DestinationColor = SourceColor;
-    gl_Position = Projection * Modelview * Position;
-    TexCoordOut = TexCoordIn; // New
+//    DestinationColor = SourceColor;
+    gl_Position = testProjection * testModelview * Position;
+//    TexCoordOut = TexCoordIn; // New
 }
