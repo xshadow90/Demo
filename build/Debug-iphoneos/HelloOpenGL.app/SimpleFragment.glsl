@@ -1,10 +1,15 @@
-precision mediump float;
+//precision mediump float;
 //varying lowp vec4 DestinationColor;
-uniform vec4 Color;
 
-varying lowp vec2 TexCoordOut; // New
-uniform sampler2D Texture; // New
+//varying lowp vec2 TexCoordOut; // New
+//uniform sampler2D Texture; // New
 
-void main(void) {
-    gl_FragColor = Color;// * texture2D(Texture, TexCoordOut); // New
+//void main(void) {
+//    gl_FragColor = DestinationColor;// * texture2D(Texture, TexCoordOut); // New
+//}
+precision mediump float;
+uniform vec4 Color; // 1
+
+void main(void) { // 2
+    gl_FragColor = Color; // 3
 }

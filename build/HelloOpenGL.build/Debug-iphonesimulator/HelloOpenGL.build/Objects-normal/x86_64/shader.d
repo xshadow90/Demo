@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/shaohanxu/Documents/CS231m/HelloOpenGL/HelloOpenGL/helper/shader.cpp \
-  /Users/shaohanxu/Documents/CS231m/HelloOpenGL/HelloOpenGL/helper/shader.h
+  /Users/shaohanxu/Documents/CS231m/iOS-AR-entrance-2/iOS-AR/AR/Class/helper/shader.cpp \
+  /Users/shaohanxu/Documents/CS231m/iOS-AR-entrance-2/iOS-AR/AR/Class/helper/shader.h
